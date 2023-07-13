@@ -1,0 +1,495 @@
+@media  screen and (min-width:1100px) {
+    #container2{
+        display: none;
+    }
+   
+    #container1{
+        width: 100vw; 
+        height: 1200px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-content: center;
+        top:0px;
+        font-family: 'Roboto', sans-serif;
+        /* font-weight: lighter; */
+        color: #2e475d;
+
+    }
+    .topbar{
+        height: 55px;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 13px;
+        top:0px;
+    
+    }
+    .navbar1{
+        display: flex;
+        flex-direction: row;
+        /* width : 1000px; */
+        justify-content: space-between;
+        flex:0 1 1100px;
+    }
+    .navbar1 div{
+        /* background-color: pink; */
+        width:auto;
+        height:100%;
+    
+    }
+    .navbar1 section{
+        display: flex;
+        flex-direction: row;
+    }
+   .language{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right:30px;
+    cursor: pointer;
+
+   }
+   .language span{
+        margin: 0px 10px 0px 10px;
+   }
+   .language:hover span{
+    text-decoration: underline;
+    color: cadetblue;
+   }
+   .language:hover i{
+    color: cadetblue;
+   }
+   .contrast{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+    }
+   .sales{
+    height: 100%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    }
+    .sales i{
+        margin-right: 8px;;
+    }
+    .sales:hover{
+        color: cadetblue;
+        text-decoration: underline;
+        
+    }
+    .toppart2 .search{
+        height: 100%;
+        display :flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: cadetblue;
+        font-size: 16px;
+        margin-right: 10px;
+        padding: 0px 10px 0px 10px;
+        cursor: pointer;
+
+    }
+    .login{
+        display :flex;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        padding: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+    .login:hover{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+    .support{
+        display :flex;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        padding: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+    .support:hover{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+    .toppart2 .about{
+        display :flex;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 10px; */
+        padding: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+    .toppart2 .about i{
+        margin-left: 10px;
+    }
+    .toppart2 .about:hover span{
+        text-decoration: underline;
+        color: cadetblue;
+    }
+    .toppart2 .about:hover i{
+        color: cadetblue;
+    }
+    .menubar{
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        position: -webkit-sticky;
+        top : 0px;
+        height: 75px;
+        width:100%;
+        font-size: 17px;
+    }
+    .navbar2{
+        display: flex;
+        flex-direction: row;
+        /* width : 1000px; */
+        justify-content: space-between;
+        flex:0 1 1100px;
+    }
+    .navbar2 div{
+        /* background-color:chartreuse; */
+        height:100%; 
+    
+    }
+    .navbar2 section{
+        display: flex;
+        flex-direction: row;
+    }
+    .logobar{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #hubspot-img{
+        content: url(https://1000logos.net/wp-content/uploads/2022/12/HubSpot-Logo.png);
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+    } 
+    .logobar .search{
+        display: none;
+    }
+    .logobar .menu{
+        display: none;
+    }
+    .company-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width : 83%;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .software{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    .software i{
+        margin-left: 15px;
+    }
+    .software:hover span{
+        color: cadetblue;
+        text-decoration: underline;
+    }
+    .software:hover i{
+        color: cadetblue;
+    }
+    .pricing{
+        display :flex;
+        width: auto ;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    .pricing i{
+        display: none;
+    }
+    
+    .pricing:hover span{
+        color: cadetblue;
+        text-decoration: underline;
+    }
+    .resources{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+        /* margin-right: 20px; */
+    }
+    .resources i{
+        margin-left: 15px;
+    }
+    .resources:hover span{
+        color: cadetblue;
+        text-decoration: underline;
+    }
+    .resources:hover i{
+        color: cadetblue;
+    }
+    .info .about{
+        display: none;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:34%;
+    }
+    .demo{
+        display :flex;
+        align-items: center;
+        justify-content: center;
+        flex : content;
+        margin-right: 10px;
+    }
+    .demo-button{
+        font-size: 15px;
+        width:100%;
+        height: 50%;
+        background-color: orangered;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .demo-button:hover{
+        opacity: 0.3;
+    }
+    .start{
+        display :flex;
+        align-items: center;
+        justify-content: center;
+        flex:content;
+        margin-left: 5px;
+    }
+    .start-button{
+        font-size: 15px;
+        width:100%;
+        height: 50%;
+        background-color: white;
+        color: orangered;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid orangered;
+        cursor: pointer;
+    }
+    .start-button:hover{
+        background-color:#f2e3d0;
+    }
+    
+
+}
+@media screen and (max-width:1099px) {
+    body{
+        overflow: hidden;
+    }
+    #container1:target{
+        /* display: flex; */
+        height: 1500px;
+        transition: 1s all ease-in;
+    }
+    #container2 a{
+        transition: 1s all ease-in;
+    }
+    #container1{
+        /* background-color: yellow; */
+        display: flex;
+        height: 0px;
+        top:0px;
+        position: sticky;
+        position: -webkit-sticky;
+        flex-direction: column;
+        overflow: hidden;
+        transition: 1s all ease-in;
+    }
+    .menubar{
+        padding: 5px;
+        /* background-color: red; */
+        order: 1;
+        display: grid;
+    }
+    .logobar{
+        height: 60px;
+        display: flex;
+        top:0px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0px;
+        cursor: pointer;
+    }
+    #hubspot-img{
+        padding: 10px;
+        content: url(https://cdn-icons-png.flaticon.com/512/5968/5968872.png);
+        width: auto;
+        height: 40px;
+        max-width: 100%;
+    } 
+    .menu{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        flex : 0 1 500px;
+        /* margin: 10px; */
+        position: relative;
+      }
+      
+      .search .textbar {
+        padding: 10px;
+        width: 100%;
+        border-radius: 20px;
+        text-align: center;
+        border: 1px solid grey;
+      }
+      
+      .search i {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: text;
+        color: cornflowerblue;
+      }
+      .search .textbar:focus{
+        border: 3px solid cornflowerblue;
+        outline: none;
+      }
+
+    .company-info{
+        display: grid;
+    }
+    .info div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: pink; */
+        height: 60px;
+        padding: 5px 40px 5px 10px;
+        margin: 10px 0px 10px 0px;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+    .info div i{
+        rotate: -90deg;
+    }
+
+    .buttons div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        /* padding: 5px; */
+        margin-bottom: 15px;
+    }
+    .buttons button{
+        flex: auto;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .demo-button{
+        background-color: orangered;
+        color: white;
+        border: none;
+    }
+    .demo-button:hover{
+        opacity: 0.3;
+    }
+    .start-button{
+        background-color: white;
+        border: 1px solid orangered;
+        color: orangered;
+    }
+    .start-button:hover{
+        background-color: #f2e3d0;
+
+    }
+
+      
+
+    .topbar{
+        /* background-color: green; */
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .navbar1{
+        /* background-color: red; */
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .navbar1 div{
+        /* background-color: pink; */
+        height: 30px;
+        width: auto;
+        margin: 10px 0px 10px 0px;
+        cursor: pointer;
+    }
+    .toppart2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /* background-color: yellowgreen; */
+        height: 70%;
+        border-left: 2px solid #B6C7D6;
+        padding-left: 10px;
+
+    }
+    .toppart2 .search{
+        display: none;
+    }
+    .toppart2 .about{
+        display: none;
+    }
+}
